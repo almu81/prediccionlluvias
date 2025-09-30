@@ -1,29 +1,68 @@
-# prediccionlluvias
-# Laboratorio de Predicción de Lluvias
+☔ Laboratorio de Predicción de Lluvias
 
-Este repositorio contiene el código y los recursos para un laboratorio práctico sobre la predicción de lluvias utilizando técnicas de aprendizaje automático.
+Repositorio práctico para la predicción de lluvias usando técnicas de Machine Learning con Python.
 
-## Descripción
+📄 Descripción
 
-En este laboratorio, exploraremos y aplicaremos diferentes modelos de aprendizaje automático para predecir la cantidad de lluvia basándonos en datos meteorológicos históricos. Utilizaremos bibliotecas populares de Python como Pandas, Scikit-learn y Matplotlib para el preprocesamiento de datos, el entrenamiento de modelos y la visualización de resultados.
+Se entrenan y comparan modelos de clasificación para predecir si lloverá al día siguiente usando datos históricos meteorológicos.
+Se utilizan librerías como Pandas, Scikit-learn, Matplotlib y Seaborn para:
 
-## Objetivos
+Preprocesamiento de datos
 
-* Comprender el proceso de preprocesamiento de datos para modelos de predicción.
-* Aplicar y comparar diferentes algoritmos de regresión para la predicción de lluvias.
-* Evaluar el rendimiento de los modelos utilizando métricas adecuadas.
-* Visualizar los resultados de las predicciones para obtener información valiosa.
+Entrenamiento de modelos
 
-## Contenido del Repositorio
+Evaluación con métricas (precisión, F1, matriz de confusión)
 
-* `data/`: Contiene el conjunto de datos meteorológicos utilizado en el laboratorio.
-* `notebooks/`: Incluye el cuaderno de Jupyter (`.ipynb`) con el código del laboratorio.
-* `README.md`: Este archivo, que proporciona información general sobre el laboratorio.
-* `requirements.txt`: Lista de las dependencias necesarias para ejecutar el laboratorio.
+Visualización de resultados
 
-## Dependencias
+🎯 Objetivos
 
-Asegúrate de tener instaladas las siguientes bibliotecas de Python:
+Comprender cómo preparar datos para modelos de predicción
 
-```bash
+Aplicar y comparar algoritmos de clasificación
+
+Evaluar el rendimiento de los modelos
+
+Visualizar patrones meteorológicos y resultados
+
+📂 Contenido del Repositorio
+
+data/ → Conjunto de datos meteorológicos (Weather_Data.csv)
+
+notebooks/ → Cuaderno de Jupyter con todo el código del laboratorio
+
+requirements.txt → Dependencias necesarias para ejecutar el laboratorio
+
+README.md → Este archivo
+
+⚙️ Instalación de Dependencias
+
+Instala todas las librerías necesarias con:
+
 pip install -r requirements.txt
+
+
+Dependencias utilizadas:
+
+pandas==1.3.4
+numpy==1.21.4
+scikit-learn==0.20.1
+matplotlib==3.5.0
+seaborn==0.9.0
+
+
+💡 Asegúrate de ejecutar este comando antes de abrir el cuaderno de Jupyter.
+
+🚀 Ejecución del Laboratorio
+
+Abre el cuaderno de Jupyter desde notebooks/.
+
+Verifica que Weather_Data.csv esté en data/.
+
+Ejecuta las celdas paso a paso: preprocesamiento → entrenamiento → evaluación → visualización.
+
+📌 Notas
+
+Este laboratorio es ideal para practicar preprocesamiento de datos, modelos de clasificación y visualización en Python.
+
+Recomendado para portafolio de Data Science / Machine Learning.
