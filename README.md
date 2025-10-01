@@ -1,7 +1,7 @@
-☔ Laboratorio de Predicción de Lluvias
+**☔ Laboratorio de Predicción de Lluvias**
 
 Repositorio práctico para la predicción de lluvias usando técnicas de Machine Learning con Python.
-
+---
 📄 Descripción
 
 Se entrenan y comparan modelos de clasificación para predecir si lloverá al día siguiente usando datos históricos meteorológicos.
