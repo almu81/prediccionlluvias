@@ -40,7 +40,6 @@ README.md → Este archivo
 Instala todas las librerías necesarias con:
 
 pip install -r requirements.txt
-
 ---
 Dependencias utilizadas:
 
@@ -49,7 +48,6 @@ numpy==1.21.4
 scikit-learn==0.20.1
 matplotlib==3.5.0
 seaborn==0.9.0
-
 ---
 **💡 Asegúrate de ejecutar este comando antes de abrir el cuaderno de Jupyter.**
 
