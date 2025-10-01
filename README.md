@@ -32,8 +32,6 @@ data/ → Conjunto de datos meteorológicos (Weather_Data.csv)
 notebooks/ → Cuaderno de Jupyter con todo el código del laboratorio
 
 requirements.txt → Dependencias necesarias para ejecutar el laboratorio
-
-README.md → Este archivo
 ---
 **⚙️ Instalación de Dependencias**
 
